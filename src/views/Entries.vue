@@ -1,17 +1,17 @@
 <template>
   <v-container fluid>
-    <Dashboard/>
+    <SalesChart/>
   </v-container>
 </template>
 
 <script>
 // @ is an alias to /src
-import Dashboard from '@/components/Dashboard.vue'
+import SalesChart from '@/components/SalesChart.vue'
 
 export default {
   name: 'Home',
   components: {
-    Dashboard
+    SalesChart
   }
 }
 </script>
